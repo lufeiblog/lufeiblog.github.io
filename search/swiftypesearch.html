@@ -89,6 +89,9 @@ function swftype1(){
 function gaianniu(){
     console.log(123);
     if(($("#submitbutton")[0])&&($(".st-pagination a")[0])){
+        $(".st-pagination a").click(function() {
+            qcxh=setInterval(gaianniu,1000);
+        });
         $("#submitbutton").val('草帽站内搜索');
         if($(".st-pagination a").html()=='« previous'){
             $(".st-pagination a").html('上一页');
@@ -99,9 +102,6 @@ function gaianniu(){
     }
 }
 var qcxh=setInterval(gaianniu,1000);
-$(".st-pagination a").click(function() {
-    qcxh=setInterval(gaianniu,1000);
-});
 </script>
       </div>
       <script src="/js/jquery.imagesloaded.min.js"></script>
