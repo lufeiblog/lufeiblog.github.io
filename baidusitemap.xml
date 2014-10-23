@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    
+    
+    
+  <url>
+    <loc>http://lufeiblog.github.io/2014/10/14/%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E5%85%89%E6%B5%8B%E8%AF%95-Hello%20wrold/</loc>
+    <lastmod>2014-10-16T04:49:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>博客的语法高光测试-Hello world</title>
+        <content><![CDATA[<h6 id="Hello_world_(你好，世界)。">Hello world (你好，世界)。</h6>
+<p>就这一句简单的问候语，在我们每一次学习新的语言时候，总能见到它，总是那么熟悉，那么亲切。</p>
+<p>现在用它来测试下博客的代码高光效果:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Javascript</span></div><div class="line">alert(<span class="string">"Hello World"</span>)</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight Php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Php</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'Hello World'</span>;</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//C</span></div><div class="line"><span class="preprocessor">#<span class="keyword">include</span> &lt;stdio.h&gt;</span></div><div class="line"><span class="keyword">int</span> main()</div><div class="line">{</div><div class="line">  <span class="built_in">printf</span>(<span class="string">"Hello World"</span>);</div><div class="line">  <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Java</span></div><div class="line">class helloWorld</div><div class="line">{</div><div class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(String args[])</div><div class="line">  {</div><div class="line">    System.out.println(<span class="string">"Hello World"</span>);</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">//Python</div><div class="line"><span class="keyword">print</span> <span class="string">"Hello World"</span>;</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Go</span></div><div class="line"><span class="keyword">package</span> main</div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"><span class="keyword">func</span> main() {</div><div class="line">    fmt.Println(<span class="string">"Hello World"</span>)</div><div class="line">}</div></pre></td></tr></table></figure>
+
+]]></content>
+        <pubTime>2014-10-14T06:05:31.000Z</pubTime>
+        
+         
+              <breadCrumb title="HelloWorld" url="http://lufeiblog.github.io/tags/HelloWorld/"/>
+          
+              <breadCrumb title="编程" url="http://lufeiblog.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://lufeiblog.github.io/2014/10/14/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BE%E7%89%87%E6%95%88%E6%9E%9C/</loc>
+    <lastmod>2014-10-14T06:04:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>博客的图片效果</title>
+        <content><![CDATA[<h3 id="图片浏览框:">图片浏览框:</h3>
+<ol>
+<li>上面是gallery图片浏览框，自己做了小修改：让图片自动居中缩放，图片浏览框响应式布局等</li>
+<li>鼠标移动上去，可以选择自动播放/暂停，手动选择上下页</li>
+<li>点击图片可以弹出，类似fancybox的效果</li>
+</ol>
+<hr>
+<p><img style="height:50px;" src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt=""> <img style="height:50px;" src="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg" alt=""> <img style="height:50px;" src="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg" alt=""></p>
+<h3 id="单个图片显示:">单个图片显示:</h3>
+<ol>
+<li>上面用的效果是fancybox，点击即可弹出</li>
+</ol>
+<hr>
+<h3 id="总结:">总结:</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;博客图片效果的处理,暂时做到这里也够用了~~</p>
+]]></content>
+        <pubTime>2014-10-14T06:01:38.000Z</pubTime>
+        
+         
+              <breadCrumb title="图片" url="http://lufeiblog.github.io/tags/%E5%9B%BE%E7%89%87/"/>
+          
+              <breadCrumb title="博客" url="http://lufeiblog.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://lufeiblog.github.io/2014/10/14/%E5%8D%9A%E5%AE%A2%E7%94%A8%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9Bmarkdown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2014-10-14T06:00:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>常用的Markdown语法</title>
+        <content><![CDATA[<p>这是写博客平时经常用到的一些markdown的语法…</p>
+<h2 id="Markdown的一些语法">Markdown的一些语法</h2>
+<h3 id="1-html代码可以直接解释:">1.html代码可以直接解释:</h3>
+<p>在markdown中，markdown支持html标签，md文件解析为html时原有的html部分会保留。有基于此，我们只要在文中插入符合html规范的代码即可。</p>
+<p>代码:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">style</span>=<span class="value">"width:100px;height:100px;background:black"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><div style="width:100px;height:100px;background:black"></div></p>
+<h3 id="2-博客目录:">2.博客目录:</h3>
+<p>自动截取markdown中的#号标题,并进行渲染成目录</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[TOC]</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="/img/codeyanshi2.png" alt=""></p>
+<h3 id="3-列表:">3.列表:</h3>
+<p>无序列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">* </span>red</div><div class="line"><span class="bullet">* </span>blue</div><div class="line"><span class="bullet">* </span>green</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ul>
+<li>red</li>
+<li>blue</li>
+<li>green</li>
+</ul>
+<p>有序列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">1. </span>apple</div><div class="line"><span class="bullet">2. </span>banana</div><div class="line"><span class="bullet">3. </span>cate</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ol>
+<li>apple</li>
+<li>banana</li>
+<li>cate</li>
+</ol>
+<p>嵌套列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">+ bullet list 1</div><div class="line">   -<span class="ruby"> sub item <span class="number">1</span></span></div><div class="line">   -<span class="ruby"> sub item <span class="number">2</span></span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ul>
+<li>bullet list 2<ul>
+<li>sub item 1 </li>
+<li>sub item 2</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-引用区块:">4.引用区块:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="keyword">this</span> <span class="keyword">is</span> a book</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<blockquote>
+<p>this is a book</p>
+</blockquote>
+<h3 id="5-字体:">5.字体:</h3>
+<p>斜体:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">*</span>斜体字<span class="keyword">*</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><em>斜体字</em></p>
+<p>粗体:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">*</span><span class="keyword">*</span>粗体字<span class="keyword">*</span><span class="keyword">*</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><strong>粗体字</strong></p>
+<h3 id="6-特殊数学表达式:">6.特殊数学表达式:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](http:<span class="comment">//latex.codecogs.com/gif.latex?latex公式)</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="http://latex.codecogs.com/gif.latex?{\sqrt{2\pi}}" alt=""></p>
+<h3 id="7-文本链接:">7.文本链接:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[<span class="link_label">baidu</span>](<span class="link_url">http://www.baidu.com</span>)</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><a href="http://www.baidu.com" target="_blank" rel="external">baidu</a></p>
+<h3 id="8-标题:">8.标题:</h3>
+<p>文字前面加几个#号</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor">## Quick Start</span></div><div class="line"><span class="preprocessor">### Create a new post</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p>看标题即可</p>
+<h3 id="9-代码:">9.代码:</h3>
+<p>嵌入文本的代码:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">我是文本中<span class="code">`代码块`</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p>我是文本中<code>代码块</code></p>
+<p>一大段的代码:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span></span></div><div class="line"><span class="keyword">if</span></div><div class="line"><span class="keyword">while</span></div><div class="line"><span class="keyword">for</span></div><div class="line"><span class="keyword">switch</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<pre><code><span class="function"><span class="keyword">function</span></span>
+<span class="keyword">if</span>
+<span class="keyword">while</span>
+<span class="keyword">for</span>
+<span class="keyword">switch</span>
+</code></pre><h3 id="10-高光代码:">10.高光代码:</h3>
+<p>代码:</p>
+<p><img src="/img/codeyanshi1.png" alt=""></p>
+<p><br>效果:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p><br></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">echo</span> <span class="string">'hello world'</span>;</div><div class="line">print_r(<span class="string">'hello world'</span>);</div></pre></td></tr></table></figure>
+
+<h3 id="11-插入网页元素(图像、音频、视频）:">11.插入网页元素(图像、音频、视频）:</h3>
+<p>插入图像:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](http:<span class="comment">//ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg)</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt=""></p>
+<p>插入音乐:</p>
+<p>某些网站歌曲页面有个『转帖』选项，将html代码或javascript代码复制到文中即可。</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://www.xiami.com/widget/0_3515679/singlePlayer.swf"</span> <span class="variable">type=</span><span class="string">"application/x-shockwave-flash"</span> <span class="variable">width=</span><span class="string">"257"</span> <span class="variable">height=</span><span class="string">"33"</span> <span class="variable">wmode=</span><span class="string">"transparent"</span>&gt;&lt;/embed&gt;</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<embed src="http://www.xiami.com/widget/0_3515679/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
+
+<p>插入视频:</p>
+<p>嵌入视频的方法和音乐类似，视频网站每个视频页面都会有一个『分享』或『转帖』按钮，点击可以查看代码。</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> <span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<embed src="http://player.youku.com/player.php/sid/XNjM0MjI1NTI4/v.swf" allowfullscreen="true" quality="high" width="700" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">]]></content>
+        <pubTime>2014-10-14T05:59:54.000Z</pubTime>
+        
+         
+              <breadCrumb title="Markdown" url="http://lufeiblog.github.io/tags/Markdown/"/>
+          
+              <breadCrumb title="编程" url="http://lufeiblog.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>

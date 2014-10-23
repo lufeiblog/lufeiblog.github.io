@@ -1,0 +1,191 @@
+
+  <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>One Piece | Tag: Markdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="蒙奇·D·路飞">
+    
+    
+    <meta name="description" itemprop="description" content="标签为Markdown的文章:常用的Markdown语法">
+    
+    
+    
+    
+    <link rel="alternative" href="/atom.xml" title="One Piece" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/js/jquery-2.0.3.min.js"></script>
+    <script src="/tagcloud/swfobject.js"></script>
+
+</head>
+
+    <body>
+      <header>
+        <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/dlufeilogo.gif" alt="One Piece" title="One Piece"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="One Piece">One Piece</a></h1>
+				<h2 class="blog-motto">总有一天，我会聚集一群不输给这些人的伙伴，并找到世界第一的财宝，我要当海贼王！！！</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/tags">标签</a></li>
+					
+						<li><a href="/archives">存档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<!-- <li>
+ 					
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="Search" />
+					</form>
+					
+					</li> -->
+				</ul>
+			</nav>			
+</div>
+      </header>
+      <div id="container">
+        
+<div class="archive-title" >
+  <h2 class="tag-icon">Markdown</h2>
+  
+</div>
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/14/博客用到的一些markdown语法/" title="常用的Markdown语法" itemprop="url">
+  
+
+    <time datetime="2014-10-14T05:59:54.000Z" itemprop="datePublished">2014年10月14日 13:59:54 </time>
+
+
+    <h1 itemprop="name">常用的Markdown语法</h1>
+
+  </a>
+</section>
+
+
+  </div>
+</div>
+
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> New world , I&#39;m coming <br/>
+			One piece , I&#39;ll get it</p>
+	</section>
+	 
+		<div class="diydivr">
+			<img src="/img/chengyuan.jpg" alt="" class="diybr">
+		</div>
+		<div class="diycb"></div>
+		<p class="copyright">Powered by <a href="http://www.baiu.com" target="_blank">
+		<a href="http://lufeiblog.github.io/about" target="_blank" title="蒙奇·D·路飞">蒙奇·D·路飞</a>
+		</a> © 2014 
+		
+		</p>
+</div>
+</footer>
+      <script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+
+
+
+      <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253438267'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1253438267%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+</script>
+    </body>
+   </html>

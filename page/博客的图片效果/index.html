@@ -1,0 +1,76 @@
+
+    
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+<style type="text/css">
+
+/*Make sure your page contains a valid doctype at the top*/
+#simplegallery1{
+position: relative; /*keep this intact*/
+visibility: hidden; /*keep this intact*/
+//border: 10px solid black;
+margin: 0 auto;
+}
+
+#simplegallery1 .gallerydesctext{
+text-align: left;
+padding: 2px 5px;
+}
+</style>
+
+<script type="text/javascript" src="/js/zjphoto.js">
+
+/***********************************************
+* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new simpleGallery({
+wrapperid: "simplegallery1", //ID of main gallery container,
+dimensions: [650,380], //[1053, 300], //width/height of gallery in pixels. Should reflect dimensions of the images exactly
+imagearray: [["/page/博客的图片效果/amster1.jpg","/page/博客的图片效果/amster1.jpg"],["/page/博客的图片效果/amster2.jpg","/page/博客的图片效果/amster2.jpg"],["/page/博客的图片效果/amster3.jpg","/page/博客的图片效果/amster3.jpg"],["/page/博客的图片效果/amster4.jpg","/page/博客的图片效果/amster4.jpg"],["/page/博客的图片效果/amster2.jpg","/page/博客的图片效果/amster2.jpg"],["/page/博客的图片效果/l1.jpg","/page/博客的图片效果/l1.jpg"],["/page/博客的图片效果/l2.jpg","/page/博客的图片效果/l2.jpg"],["/page/博客的图片效果/l3.jpg","/page/博客的图片效果/l3.jpg"],["/page/博客的图片效果/l4.jpg","/page/博客的图片效果/l4.jpg"]],
+autoplay: [false, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+persist: false, //remember last viewed slide and recall within same session?
+fadeduration: 500, //transition duration (milliseconds)
+oninit:function(){ //event that fires when gallery has initialized/ ready to run
+//Keyword "this": references current gallery instance (ie: try this.navigate("play/pause"))
+},
+onslide:function(curslide, i){ //event that fires after each slide is shown
+//Keyword "this": references current gallery instance
+//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+}
+})
+
+</script>
+</head>
+
+<body>
+<div id="simplegallery1">
+</div>
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+function jiance(){
+    if($('.fancybox')){
+    clearTimeout(jacsj);
+    $('.fancybox').fancybox();}
+    console.log(123);
+}
+var jacsj=setInterval(jiance, 3);
+</script>
+</body>
+</html>
+
+
+

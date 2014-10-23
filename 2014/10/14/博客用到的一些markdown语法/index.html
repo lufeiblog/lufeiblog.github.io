@@ -1,0 +1,636 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>One Piece | 常用的Markdown语法</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="蒙奇·D·路飞">
+    
+    
+    
+    
+    <meta name="description" content="
+Markdown
+
+编程
+
+这是写博客平时经常用到的一些markdown的语法…
+Markdown的一些语法
+1.html代码可以直接解释:
+在markdown中，markdown支持html标签，md文件解析为html时原有的html部分会保留。有基于此，我们只要在文中插入符合html规范的代码即可。
+代码:
+1&amp;lt;di">
+    
+    
+    
+    
+    <link rel="alternative" href="/atom.xml" title="One Piece" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/js/jquery-2.0.3.min.js"></script>
+    <script src="/tagcloud/swfobject.js"></script>
+
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/dlufeilogo.gif" alt="One Piece" title="One Piece"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="One Piece">One Piece</a></h1>
+				<h2 class="blog-motto">总有一天，我会聚集一群不输给这些人的伙伴，并找到世界第一的财宝，我要当海贼王！！！</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/tags">标签</a></li>
+					
+						<li><a href="/archives">存档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<!-- <li>
+ 					
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="Search" />
+					</form>
+					
+					</li> -->
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2014/10/14/博客用到的一些markdown语法/" title="常用的Markdown语法" itemprop="url">常用的Markdown语法</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/????rel=author" title="蒙奇·D·路飞" target="_blank" itemprop="author">蒙奇·D·路飞</a>
+		
+  <p class="article-time">
+    
+    <time datetime="2014-10-14T05:59:54.000Z" itemprop="datePublished"> 
+    发表于:
+    2014年10月14日
+    </time>
+    
+  </p>
+</header>
+
+	<div class="article-content">
+		
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown的一些语法"><span class="toc-number">1.</span> <span class="toc-text">Markdown的一些语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-html代码可以直接解释:"><span class="toc-number">1.1.</span> <span class="toc-text">1.html代码可以直接解释:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-博客目录:"><span class="toc-number">1.2.</span> <span class="toc-text">2.博客目录:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-列表:"><span class="toc-number">1.3.</span> <span class="toc-text">3.列表:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-引用区块:"><span class="toc-number">1.4.</span> <span class="toc-text">4.引用区块:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-字体:"><span class="toc-number">1.5.</span> <span class="toc-text">5.字体:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-特殊数学表达式:"><span class="toc-number">1.6.</span> <span class="toc-text">6.特殊数学表达式:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-文本链接:"><span class="toc-number">1.7.</span> <span class="toc-text">7.文本链接:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-标题:"><span class="toc-number">1.8.</span> <span class="toc-text">8.标题:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-代码:"><span class="toc-number">1.9.</span> <span class="toc-text">9.代码:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-高光代码:"><span class="toc-number">1.10.</span> <span class="toc-text">10.高光代码:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-插入网页元素(图像、音频、视频）:"><span class="toc-number">1.11.</span> <span class="toc-text">11.插入网页元素(图像、音频、视频）:</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>这是写博客平时经常用到的一些markdown的语法…</p>
+<h2 id="Markdown的一些语法">Markdown的一些语法</h2>
+<h3 id="1-html代码可以直接解释:">1.html代码可以直接解释:</h3>
+<p>在markdown中，markdown支持html标签，md文件解析为html时原有的html部分会保留。有基于此，我们只要在文中插入符合html规范的代码即可。</p>
+<p>代码:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">style</span>=<span class="value">"width:100px;height:100px;background:black"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><div style="width:100px;height:100px;background:black"></div></p>
+<h3 id="2-博客目录:">2.博客目录:</h3>
+<p>自动截取markdown中的#号标题,并进行渲染成目录</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[TOC]</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="/img/codeyanshi2.png" alt=""></p>
+<h3 id="3-列表:">3.列表:</h3>
+<p>无序列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">* </span>red</div><div class="line"><span class="bullet">* </span>blue</div><div class="line"><span class="bullet">* </span>green</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ul>
+<li>red</li>
+<li>blue</li>
+<li>green</li>
+</ul>
+<p>有序列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">1. </span>apple</div><div class="line"><span class="bullet">2. </span>banana</div><div class="line"><span class="bullet">3. </span>cate</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ol>
+<li>apple</li>
+<li>banana</li>
+<li>cate</li>
+</ol>
+<p>嵌套列表:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">+ bullet list 1</div><div class="line">   -<span class="ruby"> sub item <span class="number">1</span></span></div><div class="line">   -<span class="ruby"> sub item <span class="number">2</span></span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<ul>
+<li>bullet list 2<ul>
+<li>sub item 1 </li>
+<li>sub item 2</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-引用区块:">4.引用区块:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="keyword">this</span> <span class="keyword">is</span> a book</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<blockquote>
+<p>this is a book</p>
+</blockquote>
+<h3 id="5-字体:">5.字体:</h3>
+<p>斜体:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">*</span>斜体字<span class="keyword">*</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><em>斜体字</em></p>
+<p>粗体:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">*</span><span class="keyword">*</span>粗体字<span class="keyword">*</span><span class="keyword">*</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><strong>粗体字</strong></p>
+<h3 id="6-特殊数学表达式:">6.特殊数学表达式:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](http:<span class="comment">//latex.codecogs.com/gif.latex?latex公式)</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="http://latex.codecogs.com/gif.latex?{\sqrt{2\pi}}" alt=""></p>
+<h3 id="7-文本链接:">7.文本链接:</h3>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[<span class="link_label">baidu</span>](<span class="link_url">http://www.baidu.com</span>)</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><a href="http://www.baidu.com" target="_blank" rel="external">baidu</a></p>
+<h3 id="8-标题:">8.标题:</h3>
+<p>文字前面加几个#号</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor">## Quick Start</span></div><div class="line"><span class="preprocessor">### Create a new post</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p>看标题即可</p>
+<h3 id="9-代码:">9.代码:</h3>
+<p>嵌入文本的代码:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">我是文本中<span class="code">`代码块`</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p>我是文本中<code>代码块</code></p>
+<p>一大段的代码:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span></span></div><div class="line"><span class="keyword">if</span></div><div class="line"><span class="keyword">while</span></div><div class="line"><span class="keyword">for</span></div><div class="line"><span class="keyword">switch</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<pre><code><span class="function"><span class="keyword">function</span></span>
+<span class="keyword">if</span>
+<span class="keyword">while</span>
+<span class="keyword">for</span>
+<span class="keyword">switch</span>
+</code></pre><h3 id="10-高光代码:">10.高光代码:</h3>
+<p>代码:</p>
+<p><img src="/img/codeyanshi1.png" alt=""></p>
+<p><br>效果:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p><br></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">echo</span> <span class="string">'hello world'</span>;</div><div class="line">print_r(<span class="string">'hello world'</span>);</div></pre></td></tr></table></figure>
+
+<h3 id="11-插入网页元素(图像、音频、视频）:">11.插入网页元素(图像、音频、视频）:</h3>
+<p>插入图像:</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](http:<span class="comment">//ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg)</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt=""></p>
+<p>插入音乐:</p>
+<p>某些网站歌曲页面有个『转帖』选项，将html代码或javascript代码复制到文中即可。</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://www.xiami.com/widget/0_3515679/singlePlayer.swf"</span> <span class="variable">type=</span><span class="string">"application/x-shockwave-flash"</span> <span class="variable">width=</span><span class="string">"257"</span> <span class="variable">height=</span><span class="string">"33"</span> <span class="variable">wmode=</span><span class="string">"transparent"</span>&gt;&lt;/embed&gt;</div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<embed src="http://www.xiami.com/widget/0_3515679/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
+
+<p>插入视频:</p>
+<p>嵌入视频的方法和音乐类似，视频网站每个视频页面都会有一个『分享』或『转帖』按钮，点击可以查看代码。</p>
+<p>代码:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> <span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></div></pre></td></tr></table></figure>
+
+<p><br>效果:</p>
+<embed src="http://player.youku.com/player.php/sid/XNjM0MjI1NTI4/v.swf" allowfullscreen="true" quality="high" width="700" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Markdown/">Markdown</a>
+  </div>
+
+</div>
+
+
+<div class="article-share" id="share">
+
+<div class="share-jiathis">
+  
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+    hideMore:false}
+    
+  </script> 
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=
+1973078" charset="utf-8"></script>      
+
+ </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2014/10/14/博客的图片效果/" title="博客的图片效果">
+  <strong>上一篇：</strong><br/>
+  <span>
+  博客的图片效果</span>
+</a>
+</div>
+
+
+</nav>
+
+	
+<section class="comment">
+    <div class="ds-thread" data-thread-key="post-博客用到的一些markdown语法" data-title="常用的Markdown语法" data-url="http://lufeiblog.github.io/2014/10/14/博客用到的一些markdown语法/"></div>
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'lufeilm'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown的一些语法"><span class="toc-number">1.</span> <span class="toc-text">Markdown的一些语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-html代码可以直接解释:"><span class="toc-number">1.1.</span> <span class="toc-text">1.html代码可以直接解释:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-博客目录:"><span class="toc-number">1.2.</span> <span class="toc-text">2.博客目录:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-列表:"><span class="toc-number">1.3.</span> <span class="toc-text">3.列表:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-引用区块:"><span class="toc-number">1.4.</span> <span class="toc-text">4.引用区块:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-字体:"><span class="toc-number">1.5.</span> <span class="toc-text">5.字体:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-特殊数学表达式:"><span class="toc-number">1.6.</span> <span class="toc-text">6.特殊数学表达式:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-文本链接:"><span class="toc-number">1.7.</span> <span class="toc-text">7.文本链接:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-标题:"><span class="toc-number">1.8.</span> <span class="toc-text">8.标题:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-代码:"><span class="toc-number">1.9.</span> <span class="toc-text">9.代码:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-高光代码:"><span class="toc-number">1.10.</span> <span class="toc-text">10.高光代码:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-插入网页元素(图像、音频、视频）:"><span class="toc-number">1.11.</span> <span class="toc-text">11.插入网页元素(图像、音频、视频）:</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  <div class="archiveslist search">
+    <p class="asidetitle">搜索</p>
+            <div class="sousd">
+            <input class="shuangsou" type="radio" name="sex" value="草帽" checked="checked" /> 草帽&nbsp;
+            <input class="shuangsou" type="radio" name="sex" value="百度" /> 百度&nbsp;
+            <input class="shuangsou" type="radio" name="sex" value="谷歌" /> 谷歌
+            </div>
+            
+            <form id="ggcs" class="archive-list" action="/search/baidusearch.html" method="get" target="_blank" accept-charset="utf-8" onsubmit="swftype();return false">
+                 <label>Search</label>
+                 <input type="search" id="search2" autocomplete="off" maxlength="20" placeholder="站内搜索" />
+                 <input type="hidden" id="search" autocomplete="off" name="q" maxlength="20" placeholder="站内搜索" />
+             </form>
+                 <script src="/js/diysousuo.js"></script>
+             
+ 
+</div>
+
+
+                 
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  
+<div class="linkslist">
+  <p class="asidetitle">最近文章</p>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2014/10/14/博客的语法高光测试-Hello wrold/">博客的语法高光测试-Hello world</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/14/博客的图片效果/">博客的图片效果</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/14/博客用到的一些markdown语法/">常用的Markdown语法</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+<div class="archiveslist search">
+    <p class="asidetitle">最近评论</p>
+<!-- 多说最新评论 start -->
+    <div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
+<script type="text/javascript">
+    var duoshuoQuery = {short_name:'lufeilm'};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle"><a href="/tags">标签</a></p>
+    <div id="taglist" class="tagcloudlist clearfix">
+       <a href="/tags/HelloWorld/" style="font-size: NaNpx;">HelloWorld</a><a href="/tags/Markdown/" style="font-size: NaNpx;">Markdown</a><a href="/tags/图片/" style="font-size: NaNpx;">图片</a>
+    </div>
+  </div>
+
+
+  
+<div class="categorieslist">
+    <p class="asidetitle"><a href="/categories">分类</a></p>
+		<ul>
+		
+			<li><a href="/categories/博客/" title="博客">博客<sup>1</sup></a></li>
+		
+			<li><a href="/categories/编程/" title="编程">编程<sup>2</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+  <div class="archiveslist">
+    <p class="asidetitle"><a href="/archives">存档</a></p>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">2014 年 10 月</a><span class="archive-list-count">3</span></li></ul>
+  </div>
+
+
+  
+<div class="archiveslist search">
+  <p class="asidetitle">ABOUT ME</p>
+  <ul class="entry">
+    
+    <li><img width="150" title="avatar" src="/img/aboutme.jpeg" /></li>
+    
+    
+    <li>为寻找自己的OnePiece</li>
+    
+    <li>而努力...</li>
+    
+    <li><img src="/img/email.jpg"></li>
+    
+    <ul class="social-icons">
+    <li><a href="http://weibo.com/???" target="_blank" class="icon-weibo" title="weibo"></a></li>
+    <li><a href="https://github.com/???" target="_blank" class="icon-github" title="github"></a></li>
+    <li><a href="https://twitter.com/null" target="_blank" class="icon-twitter" title="twitter"></a></li>
+    <li><a href="http://stackoverflow.com/users/???" target="_blank" class="icon-stack-overflow" title="stackoverflow"></a></li>
+    <li><a href="https://www.facebook.com/???" target="_blank" class="icon-facebook" title="facebook"></a></li>
+    <li><a href="https://www.douban.com/people/???" target="_blank" class="icon-douban" title="豆瓣"></a></li>
+    <li><a href="https://plus.google.com/????rel=author" target="_blank" class="icon-google_plus" title="Google+"></a></li>
+    <li><a href="mailto:???@gmail.com" target="_blank" class="icon-email" title="Email Me"></a></li>
+    <li class="diycb"></li>
+</ul>
+  </ul>
+</div>
+
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        <li><a href="http://www.humandetail.com/" target="_blank" title="细节"><img src="/img/wailian/xijieblog.gif" alt=""> 细节的博客</a></li>
+        <li><a href="http://schnee.jd-app.com/" target="_blank" title="小八"><img src="/img/wailian/xiao8blog.jpg" alt=""> 小八的博客</a></li>
+        <li><a href="http://www.google.com/hk" target="_blank" title="谷歌"><img src="/img/wailian/google.png" alt=""> 谷歌</a></li>
+        <li><a href="http://www.baidu.com" target="_blank" title="百度"><img src="/img/wailian/baidu.png" alt=""> 百度</a></li>
+    </ul>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> New world , I&#39;m coming <br/>
+			One piece , I&#39;ll get it</p>
+	</section>
+	 
+		<div class="diydivr">
+			<img src="/img/chengyuan.jpg" alt="" class="diybr">
+		</div>
+		<div class="diycb"></div>
+		<p class="copyright">Powered by <a href="http://www.baiu.com" target="_blank">
+		<a href="http://lufeiblog.github.io/about" target="_blank" title="蒙奇·D·路飞">蒙奇·D·路飞</a>
+		</a> © 2014 
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"lufeilm"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
+
+
+
+
+
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+
+
+
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253438267'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1253438267%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  </body>
+</html>
