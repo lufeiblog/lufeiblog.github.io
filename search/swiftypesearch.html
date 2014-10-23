@@ -69,7 +69,12 @@
 </div>
       </header>
       <div id="container">
-        <div id="st-results-container"></div>
+        <form id="ggcs" class="archive-list" action="/search/baidusearch.html" method="get" target="_blank" accept-charset="utf-8" onsubmit="swftype();return false">
+                 <label>Search</label>
+                 <input type="search" id="search2" autocomplete="off" maxlength="20" placeholder="站内搜索" />
+                 <input type="hidden" id="search" autocomplete="off" name="q" maxlength="20" placeholder="站内搜索" />
+             </form>
+<div id="st-results-container"></div>
 <script type="text/javascript">
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
   (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
@@ -83,8 +88,10 @@ function gaianniu(){
     console.log(123);
     if(($("#submitbutton")[0])&&($(".st-pagination a")[0])){
         $("#submitbutton").val('草帽站内搜索');
-        if($(".st-pagination a").html()!=''){
-            $(".st-pagination a").html('下一页');
+        if($(".st-pagination a").html()=='« previous'){
+            $(".st-pagination a").html('上一页');
+        }else if($(".st-pagination a").html()=='next '){
+
         }
         clearInterval(qcxh);
     }
