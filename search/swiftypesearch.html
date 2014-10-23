@@ -69,7 +69,7 @@
 </div>
       </header>
       <div id="container">
-        <form id="swcs" class="archive-list" action="/search/baidusearch.html" method="get" target="_blank" accept-charset="utf-8" onsubmit="swftype1();return false">
+        <form id="swcs" class="archive-list" action="/search/baidusearch.html" method="get" accept-charset="utf-8" onsubmit="swftype1();return false">
                  <input type="search" id="search2" autocomplete="off" maxlength="20" placeholder="草帽站内搜索" />
 </form>
 <div id="st-results-container"></div>
@@ -92,8 +92,8 @@ function gaianniu(){
         $("#submitbutton").val('草帽站内搜索');
         if($(".st-pagination a").html()=='« previous'){
             $(".st-pagination a").html('上一页');
-        }else if($(".st-pagination a").html()=='next '){
-
+        }else if($(".st-pagination a").html()=='next »'){
+            $(".st-pagination a").html('下一页');
         }
         clearInterval(qcxh);
     }
