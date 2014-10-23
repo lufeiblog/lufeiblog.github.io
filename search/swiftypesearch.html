@@ -81,14 +81,14 @@
 <script type="text/javascript">
 function gaianniu(){
     console.log(123);
-    if($("#submitbutton")&&$(".st-pagination a")){
+    if(($("#submitbutton")[0])&&($(".st-pagination a")[0])){
         $("#submitbutton").val('草帽站内搜索');
         $(".st-pagination a").html('下一页');
         clearInterval(qcxh);
     }
 }
 var qcxh=setInterval(gaianniu,1000);
-//setTimeout("clear(qcxh)", 10000);
+setTimeout("clearInterval(qcxh)", 10000);
 </script>
       </div>
       <script src="/js/jquery.imagesloaded.min.js"></script>
