@@ -69,11 +69,9 @@
 </div>
       </header>
       <div id="container">
-        <form id="ggcs" class="archive-list" action="/search/baidusearch.html" method="get" target="_blank" accept-charset="utf-8" onsubmit="swftype();return false">
-                 <label>Search</label>
-                 <input type="search" id="search2" autocomplete="off" maxlength="20" placeholder="站内搜索" />
-                 <input type="hidden" id="search" autocomplete="off" name="q" maxlength="20" placeholder="站内搜索" />
-             </form>
+        <form id="swcs" class="archive-list" action="/search/baidusearch.html" method="get" target="_blank" accept-charset="utf-8" onsubmit="swftype1();return false">
+                 <input type="search" id="search2" autocomplete="off" maxlength="20" placeholder="草帽站内搜索" />
+</form>
 <div id="st-results-container"></div>
 <script type="text/javascript">
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
@@ -84,6 +82,10 @@
   _st('install','EpyvBx4xQMGLRQy9B66s');
 </script>
 <script type="text/javascript">
+function swftype1(){
+    var swfstr=encodeURIComponent($('#search2').val());
+    window.open("http://lufeiblog.github.io/search/swiftypesearch.html#stq="+swfstr+"&stp=1",'_blank');
+}
 function gaianniu(){
     console.log(123);
     if(($("#submitbutton")[0])&&($(".st-pagination a")[0])){
