@@ -80,6 +80,7 @@
 </script>
 <script type="text/javascript">
 function gaianniu(){
+    console(123);
     if($("#submitbutton")&&$(".st-pagination a")){
         $("#submitbutton").val('草帽站内搜索');
         $(".st-pagination a").html('下一页');
@@ -87,6 +88,7 @@ function gaianniu(){
     }
 }
 var qcxh=setInterval(gaianniu,1000);
+setTimeout("clear(qcxh)", 10000);
 </script>
       </div>
       <script src="/js/jquery.imagesloaded.min.js"></script>
